@@ -9,12 +9,12 @@
 ### Parámetros de entrada (JSON):
 - matrix: Matriz bidimensional de enteros N x N.
 Ejemplo:
-{ "matrix":[[1,2],[3,4]] }
+{ "array":[[1,2],[3,4]] }
  
 ### Parámetros de salida (JSON):
 matrix: Matriz bidimensional de enteros N x N.
 
-Oupput: {  "matrix":[[2,4],[1,3]]  }
+Oupput: {  "array":[[2,4],[1,3]]  }
 ### Ejecución:
 1. Clonar repositorio
 2. Instalar las depentencias utilizadas:
