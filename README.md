@@ -22,6 +22,11 @@ Oupput: {  "array":[[2,4],[1,3]]  }
 	- [ ] go get github.com/gin-contrib/cors
 3. Ejecutar con el comando go run main.go
 
+### Despliegue con Docker:
+1. cd /path/to/DockerfileFolder 
+2. docker build --pull --rm -f "Dockerfile" -t matrices:1.0 "." 
+3. docker run -p 8080:8080 matrices:latest
+
 ### Pruebas
 curl --request POST --url http://127.0.0.1:8080/ --header 'content-type: application/json' --data '{"array": [[1,2],[3,4]]}'
 

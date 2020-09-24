@@ -1,0 +1,59 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /                         --> main.PostAction (4 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2020/09/15 - 23:28:01 | 404 |         398ns | 109.121.161.121 | GET      /
+[GIN] 2020/09/16 - 03:47:24 | 404 |         358ns |   41.176.141.32 | GET      /
+[GIN] 2020/09/16 - 03:55:43 | 404 |         833ns |  192.35.168.199 | GET      /
+[GIN] 2020/09/16 - 03:55:43 | 404 |         750ns |  192.35.168.199 | GET      /
+[GIN] 2020/09/16 - 09:01:55 | 404 |         857ns |  82.114.248.216 | GET      /
+[GIN] 2020/09/16 - 09:15:05 | 404 |         784ns |   200.121.235.8 | GET      /
+[GIN] 2020/09/16 - 10:03:50 | 404 |         228ns |    209.17.97.66 | GET      /
+[GIN] 2020/09/16 - 10:15:00 | 404 |         253ns |   36.75.185.111 | GET      /
+[GIN] 2020/09/16 - 11:11:27 | 404 |         225ns |  154.221.31.143 | GET      /manager/html
+[GIN] 2020/09/16 - 11:18:31 | 404 |         589ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 11:19:08 | 404 |         191ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 11:23:02 | 404 |         222ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 11:24:33 | 404 |         426ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 11:31:31 | 404 |         147ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 11:40:11 | 404 |         193ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 11:41:27 | 404 |         241ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 11:49:50 | 404 |         236ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 11:49:50 | 404 |         196ns |  164.68.112.178 | GET      /
+[GIN] 2020/09/16 - 11:53:06 | 404 |         144ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 11:54:20 | 404 |         182ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 11:54:26 | 404 |         157ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 11:54:31 | 404 |         145ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 11:54:35 | 404 |         202ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 11:57:36 | 404 |         239ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 12:08:16 | 404 |         455ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 12:21:20 | 404 |       1.131µs | 103.249.180.182 | GET      /
+[GIN] 2020/09/16 - 12:38:34 | 404 |         306ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 12:38:36 | 404 |         164ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 12:40:33 | 404 |         276ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 12:40:35 | 404 |         176ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 12:46:58 | 404 |         637ns |    209.17.97.42 | GET      /
+[GIN] 2020/09/16 - 12:58:54 | 404 |         148ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 12:59:33 | 404 |         161ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 12:59:39 | 404 |         174ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 12:59:39 | 404 |         145ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 12:59:40 | 404 |         144ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 12:59:46 | 404 |         166ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 13:04:06 | 200 |   10.392059ms |   200.121.235.8 | POST     /
+[GIN] 2020/09/16 - 13:59:04 | 404 |         416ns |    196.52.43.65 | GET      /
+[GIN] 2020/09/16 - 14:09:10 | 200 |    1.086097ms |   200.121.235.8 | POST     /
+[GIN] 2020/09/16 - 14:18:33 | 404 |         251ns |  193.118.53.210 | GET      /
+[GIN] 2020/09/16 - 15:14:09 | 404 |         788ns |   47.98.167.104 | GET      /admin-scripts.asp
+[GIN] 2020/09/16 - 16:19:10 | 404 |         758ns |    209.17.96.50 | GET      /
+[GIN] 2020/09/16 - 16:29:57 | 404 |         517ns |  192.241.238.75 | GET      /hudson
+[GIN] 2020/09/16 - 16:32:22 | 404 |       1.047µs |  103.145.13.124 | GET      /
+[GIN] 2020/09/16 - 17:34:07 | 404 |         189ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 17:34:11 | 404 |         289ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 17:34:26 | 404 |         136ns |             ::1 | GET      /contentDocumentStart.js
+[GIN] 2020/09/16 - 18:08:49 | 404 |         916ns |   189.126.95.18 | GET      /
+[GIN] 2020/09/16 - 19:49:49 | 404 |         805ns |    123.0.24.254 | GET      /
+[GIN] 2020/09/16 - 20:14:42 | 404 |         777ns |  154.221.31.143 | GET      /manager/html
+[GIN] 2020/09/16 - 22:24:48 | 404 |         639ns |  190.75.254.161 | GET      /
+[GIN] 2020/09/17 - 00:21:17 | 404 |         644ns |  154.221.31.143 | GET      /manager/html

@@ -23,6 +23,9 @@ func main() {
 	// Recovery middleware recovers from any panics and writes a 500 if there was one.
 	r.Use(gin.Recovery())
 
+	// By default gin.DefaultWriter = os.Stdout
+	r.Use(gin.Logger())
+
 	r.POST("/", PostAction)
 
 	//session := r.Group("/session")
