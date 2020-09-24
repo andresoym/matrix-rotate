@@ -7,7 +7,7 @@
 
   
 ### Parámetros de entrada (JSON):
-- matrix: Matriz bidimensional de enteros N x N.
+- array: Matriz bidimensional de enteros N x N.
 Ejemplo:
 { "array":[[1,2],[3,4]] }
  
