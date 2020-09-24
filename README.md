@@ -25,7 +25,7 @@ Oupput: {  "array":[[2,4],[1,3]]  }
 ### Despliegue con Docker:
 1. cd /path/to/DockerfileFolder 
 2. docker build --pull --rm -f "Dockerfile" -t matrices:1.0 "." 
-3. docker run -p 8080:8080 matrices:latest
+3. docker run -p 8080:8080 matrices:1.0
 
 ### Pruebas
 curl --request POST --url http://127.0.0.1:8080/ --header 'content-type: application/json' --data '{"array": [[1,2],[3,4]]}'
